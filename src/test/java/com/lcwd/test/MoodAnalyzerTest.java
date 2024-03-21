@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 public class MoodAnalyzerTest {
 
     @Test
-    public void testSadMood(){
+    public void testHappyMood(){
         MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
-        String mood = moodAnalyzer.analyzeMood("I am in Sad Mood:");
-        Assertions.assertEquals("Sad" , mood);
+        String mood = moodAnalyzer.analyzeMood("I am in Happy Mood:");
+        Assertions.assertEquals("Happy" , mood);
 
     }
 }
